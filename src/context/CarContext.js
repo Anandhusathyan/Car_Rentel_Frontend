@@ -10,7 +10,7 @@ const CarContext = ({ children }) => {
   const [usereditbooking, setusereditbooking] = useState({});
   const [headerData, setheaderData] = useState({});
   const [CarData, setCarData] = useState({});
-  // const [bookingDetails, setBookingDetails] = useState({});
+  const [bookingDetails, setBookingDetails] = useState({});
   const [admineditdata, setadmineditdata] = useState([]);
   const [verifieduser,setverifieduser]= useState("");
   const [verifiedadmin,setverifiedadmin]= useState("")
@@ -123,8 +123,8 @@ const CarContext = ({ children }) => {
           setheaderData,
           CarData,
           setCarData,
-          // bookingDetails,
-          // setBookingDetails,
+          bookingDetails,
+          setBookingDetails,
           admineditdata,
           setadmineditdata,
           inputdata,
