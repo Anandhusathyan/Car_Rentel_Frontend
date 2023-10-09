@@ -1,0 +1,62 @@
+.filter-section {
+  display: flex;
+  justify-content: start;
+  margin:20px;
+}
+
+.filter-section label {
+  margin-right: 10px;
+}
+
+.car-list-container {
+  text-align: center;
+}
+
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #cabdbd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: right;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.car-details{
+  border: none;
+  text-align: left;
+}
+
+.car-details h3 {
+  margin: 0;
+  border: none;
+}
+
+.car-details p {
+  margin: 5px 0;
+}
+
+.car-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.car-details button:hover {
+  background-color: #0056b3;
+}

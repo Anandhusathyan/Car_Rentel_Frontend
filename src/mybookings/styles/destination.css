@@ -1,0 +1,10 @@
+/* styles/destination.css */
+.destination{
+    height: 100vh;
+    background-image: url("../../images/background.png");
+    object-fit: cover;
+    background-size: 100vw 100vh;
+}
+.form-control{
+    border: transparent;
+}

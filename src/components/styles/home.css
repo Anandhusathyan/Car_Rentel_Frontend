@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.Home-page {
+  height: 100vh;
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-clip: padding-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
+  object-fit: cover;
+}
+
+.slogan {
+  font-size: 30px;
+  margin-top: -30px;
+  width: 80%;
+  margin-left: -8px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing:1px;
+  text-align: center;
+}
+
+.Register {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+.button-50 {
+  width: 150px;
+  font-size: medium;
+  border: none;
+  border-radius: 20px;
+  background:rgb(48, 120, 226);
+}
+.button-user-admin-login-containecr {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+.button-50:focus {
+  text-decoration: none;
+}
+
+p {
+  font-size: 23px;
+  font-weight: 700;
+  color: azure;
+  font-family: initial;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 30px;
+
+}
+
+.form-type {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+#btn{
+  background-color: rgb(38, 103, 190);
+}
+#btn:hover{
+  background-color: rgb(40, 83, 174);
+  color: black;
+  
+}

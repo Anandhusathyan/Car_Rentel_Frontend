@@ -1,0 +1,43 @@
+.edit-car-details-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .edit-form {
+    margin-bottom: 10px;
+  }
+  
+  .edit-form label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+  }
+  
+  .edit-button {
+    background-color: #fdd835;
+    color: #000;
+    border: none;
+  }
+  
+  .car-details {
+    margin-bottom: 10px;
+  }
+  
+  .car-details p {
+    margin: 5px 0;
+  }
+  
+  .car-data {
+    color: black;
+  }
+  
